@@ -1,6 +1,6 @@
 site:
   name: Bejjani Powers Wedding
-  site: 'http://maxbejjanipowers.netlify.app'
+  site: 'https://maxbejjanipowers.netlify.app'
   base: '/'
   trailingSlash: false
 
