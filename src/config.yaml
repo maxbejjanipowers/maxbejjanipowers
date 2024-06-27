@@ -1,10 +1,10 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Bejjani Powers Wedding
+  site: 'http://maxbejjanipowers.netlify.app'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  #googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
 
 # Default SEO metadata
 metadata:
@@ -22,10 +22,6 @@ metadata:
         width: 1200
         height: 628
     type: website
-  twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
-    cardType: summary_large_image
 
 i18n:
   language: en
