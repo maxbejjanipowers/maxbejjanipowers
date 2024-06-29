@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -28,7 +28,7 @@ export const headerData = {
       href: getPermalink('/contact'),
     },
     {
-      text: 'Bridal Party',
+      text: 'About',
       href: getPermalink('/about'),
     },
     {
@@ -37,7 +37,7 @@ export const headerData = {
     },
     {
       text: 'FAQ',
-      href: getPermalink('/#faq'),
+      href: getPermalink('/#FAQs'),
     },
     {
       text: 'Livestream',
