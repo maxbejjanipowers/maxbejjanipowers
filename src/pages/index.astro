@@ -2,7 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import { timer } from '~/index';
 import Content from '~/components/widgets/Content.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
@@ -26,32 +25,7 @@ const metadata = {
     </Fragment>
   </Hero>
 
-    <div class="flex justify-around text-center [&>*>h2]:text-xl [&>*>h2]:sm:text-4xl [&>*>h2]:font-bold [&>*>p]:text-sm [&>*>p]:font-semibold">
-       <div>
-           <h2 id="month">10</h2>
-           <p>Month</p>
-       </div>
-  
-        <div>
-            <h2 id="day">30</h2>
-            <p>Days</p>
-        </div>
-  
-        <div>
-            <h2 id="hour">20</h2>
-            <p>Hours</p>
-        </div>
-  
-        <div>
-            <h2 id="minute">59</h2>
-            <p>Minutes</p>
-        </div>
-  
-        <div>
-            <h2 id="second">40</h2>
-            <p>Seconds</p>
-        </div>
-     </div>
+  <!-- timer idea at https://mbianoubradon.medium.com/how-to-build-a-countdown-component-using-tailwindcss-and-javascript-fb2d365d6540 -->
 
   <!-- Content Widget **************** -->
 
@@ -107,7 +81,7 @@ const metadata = {
       {
         title: 'Can I bring a plus one?',
         description:
-          "Please hold off on requesting any +1s until we've sent out invitations. Once they are out, you can feel free to request a +1.",
+          "If your guest's name is listed when you RSVP, then yes. Otherwise, we are unable to accommodate for extra guests. Thank you for understanding.",
       },
       {
         title: 'Can I bring my children?',
