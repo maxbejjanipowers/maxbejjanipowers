@@ -35,3 +35,5 @@ var x = setInterval(function () {
         document.getElementById("new").innerHTML = "HAPPY NEW YEAR ! TIME FOR A NEW BEGINNING";
     }
 }, 1000);
+
+export const timer = {monthsElement, daysElement, hoursElement, minutesElement, secondsElement}
