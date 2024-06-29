@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
+import { timer } from '~/index';
 import Content from '~/components/widgets/Content.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
@@ -53,7 +53,6 @@ const metadata = {
         </div>
      </div>
 
-  <Note />
   <!-- Content Widget **************** -->
 
   <Content
