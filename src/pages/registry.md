@@ -15,6 +15,6 @@ We greatly appreciate the time and expense required to attend our wedding, so pl
 
 ### Honeymoon/House Fund:
 
-- Venmo: <a href="https://venmo.com/christina-bejjani" target="_blank">@Christina-Bejjani</a>,<a href="https://venmo.com/markgrover-powers" target="_blank"> @MarkGrover-Powers</a>
+- Venmo: <a href="https://venmo.com/u/christina-bejjani" target="_blank">@Christina-Bejjani</a>,<a href="https://venmo.com/u/markgrover-powers" target="_blank"> @MarkGrover-Powers</a>
 - Zelle: christinabejjani AT gmail DOT com
-- Paypal: christinabejjani AT gmail DOT com
+- Paypal: <a href="paypal.me/christinabejjani" target="_blank">Christina</a>
