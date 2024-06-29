@@ -1,4 +1,4 @@
-import { getPermalink, getAsset } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -6,7 +6,7 @@ export const headerData = {
       text: 'Schedule',
       links: [
         {
-          text: 'Day Of',
+          text: 'Events',
           href: getPermalink('/homes/schedule'),
         },
         {
