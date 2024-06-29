@@ -13,7 +13,7 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <Hero
-    image={{ src: '~/assets/images/flowers_two.png', alt: 'Flowers' }}
+    image={{ src: '~/assets/images/flowers_three.png', alt: 'Flowers' }}
   >
     <Fragment slot="title">
       Welcome to the <span class="text-accent dark:text-white highlight">Bejjani Powers</span> Wedding website!
@@ -23,6 +23,7 @@ const metadata = {
       <span class="hidden sm:inline">
         <span class="font-semibold">We</span> are so glad that you've decided to join us on our big day, May 3, 2025.</span>
     </Fragment>
+  </Hero>
 
     <div class="flex justify-around text-center [&>*>h2]:text-xl [&>*>h2]:sm:text-4xl [&>*>h2]:font-bold [&>*>p]:text-sm [&>*>p]:font-semibold">
        <div>
@@ -50,7 +51,6 @@ const metadata = {
             <p>Seconds</p>
         </div>
      </div>
-  </Hero>
   <!-- Content Widget **************** -->
 
   <Content
@@ -144,5 +144,5 @@ const metadata = {
       },
     ]}
   />
-
+  <script src="index.js"></script>
 </Layout>
