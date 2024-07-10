@@ -7,11 +7,11 @@ export const headerData = {
       links: [
         {
           text: 'Events',
-          href: getPermalink('/homes/schedule'),
+          href: getPermalink('/schedule'),
         },
         {
           text: 'Traditions',
-          href: getPermalink('/homes/traditions'),
+          href: getPermalink('/traditions'),
         },
       ],
     },
@@ -28,8 +28,17 @@ export const headerData = {
       href: getPermalink('/contact'),
     },
     {
-      text: 'About',
-      href: getPermalink('/about'),
+      text: 'Who We Are',
+      links: [
+        {
+          text: 'Bride and Groom',
+          href: getPermalink('/about'),
+        },
+        {
+          text: 'Wedding Party',
+          href: getPermalink('/party'),
+        },
+      ],
     },
     {
       text: 'Registry',
