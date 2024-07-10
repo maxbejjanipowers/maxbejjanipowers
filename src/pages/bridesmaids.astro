@@ -1,0 +1,167 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'About us',
+};
+---
+
+<Layout metadata={metadata}>
+
+<Content
+    image={{
+      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Colorful Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Person of Honor: Enyo Sherman</h2>
+      <p>
+        Enyo has known Christina since 2003, when they met at Sierra Canyon School in seventh grade. Over twenty plus years, they’ve kept in touch as Enyo earned their BA in geology and an MS in water science and policy and treaded new paths while WWOOFing across the United States. Enyo currently works in mutual aid and a facility providing support to folks needing long-term care. These days, instead of starting random dance parties, sending each other long emails, jamming at concerts like Coachella, doing photoshoots, visiting Denny’s in the early morning, watching sunrises, hiking, iceblocking, celebrating birthdays in abandoned lots, playing Mario Party and Smash, stumbling upon beautiful performances, failing escape rooms, and writing moody fiction stories together, the two make fun of emo Hollywood Bowl singers, celebrate Halloween at the old LA zoo, host tea parties, kayak, pick ripe cherries, enjoy Van Gogh immersion, attend senior cat prom and book-oriented and holiday light events, cowork, and explore various festivals and county fairs. Their adventures have spanned across Philadelphia, Durham, the San Fernando Valley and LA, Asheville, Las Vegas, New Haven, Crow Canyon, NYC, and Boston. Enyo is well known for their advocacy and social justice work and extended Filipino family as well as their love of their cat, Bellsprout, avocados, green, plants, turtles, doodling, and reading, and always has a fascinating topic to discuss about the world, especially given their penchant for traveling (most recently to the Swiss Alps!).
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    isAfterContent
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Blueprint Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Bridesmaid: Loren Hinton</h2>
+      <p>
+        Loren and Christina first met in their freshman year at Pomona College through a mutual friend, but became better friends via Blendia. Having known each other for fifteen years has meant several trips to visit their respective home bases (especially when Loren participated in the Japanese Exchange and Teaching (JET) program for three years in Tokyo or when Christina was at Duke in Durham), regular video chats for writing, chatting, or watching shows or movies like Suzume, work, hangout, and party prep sessions at the Library or in their dorms, and vacations abroad to Paris, within CA to Santa Barbara, or even for their senior trip to Newport Beach and San Diego. Loren earned her BA in media studies and an MLIS and currently works as a Librarian near Oklahoma City. Together, they’ve nerded out by volunteering at the Romantic Times Book Lovers convention in New Orleans, Los Angeles, and Chicago and attending Book Expo America in NYC (before, of course, checking out the latest Broadway shows). Many college days were spent on bean bags with late night Domino's thin crust pizza, watching shows and movies and dancing to kpop videos, or at sequestered food hall rooms, planning their next 5Cs Out Loud creative writing meeting, workshop, or event (as with Sarah J. Maas). Christina is well known for stealing Loren’s phone in order to post ridiculous things, and Loren is well known for her love of Lucille Ball, beautiful nail polish, purple, makeup, cats, and reading and rolling with almost anything, including a Codenames clue that pushed her and Mark to search for “duck sweatshirts.” (Don’t ask).
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    image={{
+      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Colorful Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Bridesmaid: Blendia Hubbard</h2>
+      <p>
+        Blendia and Christina first met on their orientation adventure trip to June Lake before their freshman fall semester. Many adventures with Loren also involved Blendia, with the three girls dubbing themselves the “SanTriforce.” An adventure of their own, however, occurred when they drove to Zion in the single day before each Department hosted their respective celebrations for graduation, realized that they couldn’t do the famous 10+ mile hikes in the few hours of sunlight left and that the campsites were already booked, and then ultimately slept on the side of the road in their car after checking out what was available. Christina also visited Blendia in Chicago several times, including for July 4, also known as the time they got to look at Bisa Butler’s visionary art, and Labor Day weekend in 2014, also known as the time Blendia cheered Christina up by eating a cookie that had had Sweeties (yes, the candy) baked into it. (How do you think it tasted?). Blendia and Christina both had their first experiences with Harry Potter world together, explored Kyoto, Fushima, and Odaiba while Loren was working, and attended a wedding in Philadelphia via an Uber where the driver described scaring off a rider with her gun and they all chuckled nervously. Blendia aspires to become an astronaut and currently works as a Customer Success Manager within the restaurant tech space after having previously worked as a Regional Sales Manager at the same company and a Program Coordinator at Northwestern. She is well known for her gorgeous eyelashes and her love of green, anime, cats, books, beer, writing, and painting as well as creating creative stories from still life in order to enact them in real life, for example, turning statues into main characters. 
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    isAfterContent
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Blueprint Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Bridesmaid: Jennifer Bejjani</h2>
+      <p>
+      Christina first met Jennifer when Jennifer, by invitation, attended her virtual dissertation defense after having dated Christina’s brother, Anthony, for nearly eight months. Their first real hangout, however, occurred when, after graduating, Christina moved to West LA and had a small housewarming dinner with Jenn and Anthony, whereupon Jenn showed her creativity with Reverse Charades and brought Christina a lovely vase that she still uses to this day. Since then, they’ve attended Clippers and Sparks games and an After Midnight taping, learned salsa and swing via Ivy Station lessons, hiked across Beverly Hills, Ranchos Palos Verdes, and more, played board games at many a game night, and celebrated each other at their respective engagement proposals, whether at UCLA or within the Our Lady of Mount Lebanon church. Jennifer earned her BA in Communication and Women’s Studies from UCSB, a Masters in Education in Urban Teaching from UCLA, and a RLAA from USC, and currently works at El Rincon in Culver City as a Kindergarten teacher and volunteers at the Rock n’ Roll Camp for Girls and the Natural History Museum, having provided guidance on exhibits that highlight things like taxidermy and bats. Anthony and Jennifer got married on September 3, 2023, and it has been a true blessing to officially count Jenn among the Bejjani family. Jennifer is well known for being ultra prepared for any scenario, having puns and dad jokes at the ready or water, sunscreen, hand sanitizer, hair ties, and so much more in whatever bag she is carrying. Her love for corgis, mustard yellow, concerts, dancing, and vegetable medleys is unmatched.  
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+<Content
+    image={{
+      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Colorful Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Bridesmaid: Sarah Bejjani</h2>
+      <p>
+        Christina and Sarah first met informally when Christina, being the impertinent little sister, asked for as many details as possible about the girl Christina’s brother, John, made hummus for out in Chicago and was eventually told her IG handle. Their first formal meeting was a beautiful game night at Sarah’s mom’s condo in LA. Since then, they’ve hiked, played board games at various game nights, watched oodles of Great British Bake Off and Bridgerton, played countless rounds of tarneeb, and tasted handmade specialties from the other, including Sarah’s famous lasagne. Sarah earned her BA in biology at LMU and her veterinary doctorate at the Tuskegee School of Veterinary Medicine in Alabama, and currently works as an independent contractor at several clinics in Orange County and previously volunteered at Saint Monica Catholic Church in Santa Monica. John and Sarah got married on June 1, 2024, and it has been a true blessing to officially count Sarah among the Bejjani family. Sarah is well known for loving sloths, pugs, hairless cats (animals generally), pun-named plants (having resurrected the Aerogarden Christina had given John), Taylor Swift, emerald green, yoga, spaghetti bolognese, bird-watching, and poetry. She has been rooting for Gravy, Mark and Christina’s cat, along his weight loss journey and provided his newest feeding tool: a mouse he can hunt.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    isAfterContent
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Blueprint Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Bridesmaid: Janet Saldivar</h2>
+      <p>
+      Christina first met Janet at Mark’s birthday dinner in Victorville, where his mom, aunt, and cousin live, about two months into their relationship. Since then, they’ve explored Universal Studios for Mark’s birthday, played Connect Four (Janet won, of course) and lotteria, enjoyed all the beautiful tempos of mariachi, and cheered Mark on as he was baptized at Our Lady of Mount Lebanon and graduated with his Masters in systems engineering. Janet’s creativity showed in the centerpieces she created for her baby shower, and her kindness was evident when she and her husband, Patrick, gave Christina their hand warmer/battery charger after they had noticed her cold hands during the Christmas dinner party they’d attended. Janet recently gave birth to her first child, Henry Fred Saldivar, on May 29, 2024, and witnessing Janet embark on the next chapter of her family has been a complete joy for Mark and Christina as an uncle and aunt. Janet has worked as an underwriter at Mercury Insurance for over twenty years and owns a house with Patrick in San Bernardino. She is well known for her love of her dogs (Paris, Mella, Nawlya), their family cat, Alexis, and tv shows as varied as Bridgerton and Your Honor, as well as the good times she had caring for her younger brothers, taking them out with her friends at Knott’s Berry Farm, Las Vegas, and the beach.  
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    image={{
+      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Colorful Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Bridesmaid: Misha Abadilla</h2>
+      <p>
+        Christina first met Misha when they celebrated Mark’s birthday at Universal Studios. Since then, Christina has been struck by Misha’s extroverted charm, her ability to strike a conversation no matter whether in the line for Jurassic Park, as the hostess for her housewarming in Irvine, at Janet’s baby shower and 4D ultrasound, or at Janet’s house for various celebrations. Misha’s hospitality showed in how she and her family invited Mark’s/Eldred’s family to their house for Christmas Eve dinner, and her creativity shined in the Christmas card she and Mark’s brother and her partner, Eldred, created this past year. Misha earned her BASC in biology at UC Riverside and currently works as a clinical lab scientist at the City of Hope, having previously worked for several years as a Medical Laboratory Technician at the VA in Long Beach. Misha is well known for her love of music (EDM concerts in particular, traveling as far as Brazil for Carnival or Michigan for Electric Forest), mushroom decor, hiking, camping, and backpacking, taking photos and arranging their frames beautifully in her apartment with Eldred, cute fridge vegetable stickers with pun filled phrases, her cats (Ragnar and Jinja) with Eldred and her maltipoo mixed dog, Roscoe.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    isAfterContent
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Blueprint Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Bridesmaid: Stephanie Valdez</h2>
+      <p>
+      Christina first met Stephanie during their time at Pomona College as neuroscience majors. Whether working together on a class presentation or lab research, or annoying their thesis adviser with a Maroon 5 Pandora station, hanging out at the Grove, Urth Caffe, Compton restaurants, Santa Monica Pier, the Manhattan Village or virtually via video chats and zooms with their friends Roxy, Becky, and Leena, grabbing AYCE kbbq, cheesecake, or LA pizza together, attending book launch parties like one for Ruin and Rising at The Last Bookstore and trading reading recommendations, enjoying romcoms, hosting game nights and double dates, and watching Hamilton and Aladdin at the Pantages or attempting to watch Star Wars in the dorms, they’ve had a blast over their decade plus knowing one another. Stephanie currently works as a clinical lab scientist at UCLA, after having previously worked as a high school chemistry teacher, and was actually the first of Christina’s friends to meet Mark with her husband, Giovanni Marquez (spoiler: she had nothing but praise for Mark). Stephanie is expecting her first child, Victoria Marquez, in September 2024, and watching Stephanie with Giovanni and their love for one another, whether at parties or their wedding, has been beautiful. Stephanie is well known for her love of cooking, TikTok, books, watching TV like the Expanse, board games, her cat (Milo), and her family.  
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+</Layout>
