@@ -28,7 +28,7 @@ export const headerData = {
       href: getPermalink('/contact'),
     },
     {
-      text: 'Who We Are',
+      text: 'About',
       links: [
         {
           text: 'Bride and Groom',
