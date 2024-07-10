@@ -35,8 +35,12 @@ export const headerData = {
           href: getPermalink('/about'),
         },
         {
-          text: 'Wedding Party',
-          href: getPermalink('/party'),
+          text: 'Bridesmaids',
+          href: getPermalink('/bridesmaids'),
+        },
+        {
+          text: 'Groomsmen',
+          href: getPermalink('/groomsmen'),
         },
       ],
     },
