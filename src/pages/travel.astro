@@ -45,12 +45,9 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Features3 Widget ************** -->
-
   <Features3
     title="Things to Do"
     subtitle="Los Angeles Version"
-    columns={3}
     defaultIcon="tabler:point-filled"
     items={[
       {
@@ -71,7 +68,7 @@ const metadata = {
       },
       {
         title: 'Hiking',
-        description: "One joke about LA dating is that everyone lists hiking as a hobby--for good reason, though. You have the beautiful Santa Monica Mountain hikes, the Los Angeles Forest hikes, the Malibu hikes... Check out AllTrails and pack good shoes.",
+        description: "One joke about LA dating is that everyone lists hiking as a hobby--for good reason, though. You have the beautiful Santa Monica Mountain hikes, the Los Angeles Forest hikes, the WeHo and Griffith Park hikes, the Malibu hikes... Check out AllTrails and pack good shoes.",
       },
       {
         title: 'Water Activities',
@@ -90,9 +87,26 @@ const metadata = {
         description: "We went to an After Midnight comedy show taping (you're near Hollywood!) and many, many other comedy shows. We've gone horseback riding (Malibu, Hollywood), sky dived (Lake Elsinore), etc. There are board game cafes, mini golf, arcades, bookstores (The Last Bookstore, Village Well, The Ripped Bodice, Skylight Books, Booksoup, and more), symphonies (Disney Concert Hall), Disneyland, etc.",
       },
     ]}
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
+  />
+
+  <Features3
+    title="Things to Do"
+    subtitle="Burbank Version"
+    defaultIcon="tabler:point-filled"
+    items={[
+      {
+        title: 'Food',
+        description: "Louis's French on the Block has amazing quiches; Artelice LA has delicious pastries; and Porto's has amazing pastries and potato balls (our cake is from Porto's).",
+      },
+      {
+        title: '5th Street Mall',
+        description: "This place has a Dave & Buster's arcade as well as a giant Barnes & Noble for all your book needs and additional outlet and mall related shopping stores.",
+      },
+      {
+        title: 'Studio Tours',
+        description: "Go on studio tours, like to Universal Studios Hollywood or to the Warner Brothers set.",
+      },
+    ]}
   />
 
 </Layout>
