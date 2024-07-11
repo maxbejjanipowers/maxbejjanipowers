@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
 
 const metadata = {
   title: 'Wedding Schedule',
@@ -8,6 +9,37 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+
+<Content
+    isReversed
+    tagline="Weekend Timeline"
+    title="Friday through Sunday"
+    items={[
+      {
+        title: 'Friday, May 2, 2025',
+        description:
+          "We'll have our rehearsal dinner this night. We may take the day off for last minute wedding preparations, but have time to hang out earlier in the day. Let us know if you're interested.",
+      },
+      {
+        title: 'Saturday, May 3, 2025',
+        description:
+          "Let's celebrate!",
+      },
+      {
+        title: 'Sunday, May 4, 2025',
+        description:
+          "We'd be open to an activity this day, like mini golfing or brunching. Something that can accommodate a lot of people. Let us know if you're interested.",
+      },
+    ]}
+    image={{
+      src: '~/assets/images/testing-new 328.JPG', alt: 'Mark and Christina' 
+    }}
+  >
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
   <Steps
     title="Sat, May 3, 2025 Schedule"
