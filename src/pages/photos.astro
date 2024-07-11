@@ -1,25 +1,18 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero from '~/components/widgets/Hero.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-
-import Features2 from '~/components/widgets/Features2.astro';
-import Features from '~/components/widgets/Features.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
 import Brands from '~/components/widgets/Brands.astro';
 
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Startup Landing Page',
+  title: 'Photos',
 };
 ---
 
 <Layout metadata={metadata}>
-    <Fragment slot="title">
+  <Hero>    
+  <Fragment slot="title">
      Our photo gallery
     </Fragment>
 
@@ -28,21 +21,16 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="image">
-      <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
-      <style is:inline>
-        lite-youtube {
-          margin: 0 auto;
-          max-width: 100%;
-        }
-      </style>
+      image={{
+      src: '~/assets/images/engagement.mp4',
+      alt: 'Engagement Video',
+    }}
     </Fragment>
   </Hero>
 
 
   <Brands
-    title="Partnerships & Collaborations"
-    subtitle="At Astrowind, we believe in the power of collaboration to drive innovation and create exceptional experiences."
-    icons={[]}
+   icons={[]}
     images={[
       {
         src: 'https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png',
