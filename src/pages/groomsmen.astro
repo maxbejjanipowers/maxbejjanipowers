@@ -1,0 +1,205 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'About us',
+};
+---
+
+<Layout metadata={metadata}>
+
+<Content
+    image={{
+      src: '~/assets/images/enyo.JPG',
+      alt: 'Enyo Sherman',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Man of Honor: Eldred Powers, Jr.</h2>
+      <p>
+        Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    image={{
+      src: '~/assets/images/loren.JPG',
+      alt: 'Loren Hinton',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Groomsman: Jason Shap</h2>
+      <p>
+        Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    image={{
+      src: '~/assets/images/blendia.jpg',
+      alt: 'Blendia Hubbard',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Groomsman: Oscar Gonzalez</h2>
+      <p>
+        Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    image={{
+      src: '~/assets/images/jennifer.jpg',
+      alt: 'Jennifer Bejjani',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Groomsman: Anthony Bejjani</h2>
+      <p>
+      Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+<Content
+    image={{
+      src: '~/assets/images/sarah.jpg',
+      alt: 'Sarah Bejjani',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Groomsman: John Bejjani</h2>
+      <p>
+        Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    image={{
+      src: '~/assets/images/janet.jpg',
+      alt: 'Janet Saldivar',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Groomsman: Patrick Saldivar</h2>
+      <p>
+      Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    image={{
+      src: '~/assets/images/misha.jpg',
+      alt: 'Misha Abadilla',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Groomsman: Jack Riley</h2>
+      <p>
+        Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    image={{
+      src: '~/assets/images/stephanie.jpg',
+      alt: 'Stephanie Valdez',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Groomsman: James Bejjani</h2>
+      <p>
+      Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+<Content
+    image={{
+      src: '~/assets/images/misha.jpg',
+      alt: 'Misha Abadilla',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Officiant: Princeton Legree</h2>
+      <p>
+        Text
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+ <Content
+    isReversed
+    image={{
+      src: '~/assets/images/stephanie.jpg',
+      alt: 'Stephanie Valdez',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content"><h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Honorary: Gravy Theodore</h2>
+      <p>
+      Gravy needs no introductions. He is the best cat to ever exist.
+      </p>
+      <br />
+      <p>
+      I’m sorry, but did Gravy write this intro? Looks like someone needs a time-out.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+</Layout>
